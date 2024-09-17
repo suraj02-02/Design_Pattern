@@ -2,7 +2,7 @@ package strategy_Design.strategy_interface;
 
 /**
  *  <p>
- *      Strategy interface which is implemented by all the concrete strategies
+ *      Strategy interface which is implemented by all the concrete strategies. It defines the behaviour for <code>Concrete Strategies</code>.
  *  </p>
  *  <p>
  *      Based on the <code>strategy</code> passed to the {@link strategy_Design.context.PaymentProcessor} the request will be delegated

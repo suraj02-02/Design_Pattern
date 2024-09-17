@@ -10,7 +10,7 @@ import strategy_Design.strategy_interface.PaymentStrategy;
  *     It holds the reference of <code>Strategy</code> interface.
  * </p>
  * <p>
- *     Based on the actual implementation of <code>Strategy</code> it calls the <code>pay()</code> method of <code>Concrete Strategy</code>
+ *     Based on the actual implementation of <code>Strategy</code> passed through client it delegates the request to appropriate <code>Concrete Strategy</code> without executing the code on its own.
  * </p>
  *
  */
